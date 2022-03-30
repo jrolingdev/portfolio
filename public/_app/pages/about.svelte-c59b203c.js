@@ -1,0 +1,9 @@
+import{S as E,i as I,s as A,k as v,e as u,t as _,Q as M,d as i,n as w,c as m,a as f,g as S,b as g,f as T,D as l,E as p}from"../chunks/vendor-75d50465.js";function H(x){let s,e,o,r,d,a,c;return{c(){s=v(),e=u("section"),o=u("h2"),r=_("About"),d=v(),a=u("p"),c=_(`Hi! \u{1F44B} My name is Jacob Roling and I'm a web developer from South Australia. Welcome to my portfolio. I built it using a variety of technologies.\r
+    For the frontend I used SvelteKit. My projects, skills and experience are\r
+    all data that is being pulled from Firebase. The website uses SSR so if you view the source code on the home page you\r
+    will notice that the projects are prerendered in the HTML. The website is styled with Tailwind. The contact form uses EmailJS to deliver contact details to my email address\r
+    and the site is hosted on Netlify's CDN.`),this.h()},l(t){M('[data-svelte="svelte-1vdnbr6"]',document.head).forEach(i),s=w(t),e=m(t,"SECTION",{});var n=f(e);o=m(n,"H2",{class:!0});var b=f(o);r=S(b,"About"),b.forEach(i),d=w(n),a=m(n,"P",{class:!0});var y=f(a);c=S(y,`Hi! \u{1F44B} My name is Jacob Roling and I'm a web developer from South Australia. Welcome to my portfolio. I built it using a variety of technologies.\r
+    For the frontend I used SvelteKit. My projects, skills and experience are\r
+    all data that is being pulled from Firebase. The website uses SSR so if you view the source code on the home page you\r
+    will notice that the projects are prerendered in the HTML. The website is styled with Tailwind. The contact form uses EmailJS to deliver contact details to my email address\r
+    and the site is hosted on Netlify's CDN.`),y.forEach(i),n.forEach(i),this.h()},h(){document.title="About | Jacob Roling",g(o,"class","text-5xl font-bold"),g(a,"class","mt-8 text-lg")},m(t,h){T(t,s,h),T(t,e,h),l(e,o),l(o,r),l(e,d),l(e,a),l(a,c)},p,i:p,o:p,d(t){t&&i(s),t&&i(e)}}}class N extends E{constructor(s){super();I(this,s,null,H,A,{})}}export{N as default};
