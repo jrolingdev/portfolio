@@ -1,16 +1,12 @@
 <script lang="ts">
   import Icon from "@iconify/svelte";
-  import { ref, getDownloadURL } from 'firebase/storage';
-  import { Storage } from "$lib/firebase";
   import AspectRatio from "./AspectRatio.svelte";
   
   export let name: string;
   export let description: string;
   export let liveDemoUrl: string;
   export let sourceCodeUrl: string;
-  export let imagePath: string = "images/placeholder.png";
-
-  const image = getDownloadURL(ref(Storage, imagePath));
+  export let imagePath: string = "/images/placeholder.png";
 </script>
 
 <div class="grid md:grid-cols-3 gap-x-4 gap-y-8">
@@ -29,16 +25,8 @@
     </div>
   </div>
   <div>
-    {#await image}
-      <div>Loading</div>
-    {:then url}
-      <AspectRatio ratio={16 / 9}>
-        <img class="w-full h-full" src={url} alt={name}>
-      </AspectRatio>
-    {:catch error}
-      <div>
-        {error}
-      </div>
-    {/await}
+    <AspectRatio ratio={16 / 9}>
+      <img class="w-full h-full" src={imagePath} alt={name}>
+    </AspectRatio>
   </div>
 </div>

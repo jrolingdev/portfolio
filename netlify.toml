@@ -1,7 +1,10 @@
 [build]
-  command = "pnpm build"
+  command = "npm run build"
   publish = "build"
 
 [dev]
-  command = "pnpm dev"
+  command = "npm run dev"
   autoLaunch = false
+
+[functions]
+  directory = "netlify_functions"
