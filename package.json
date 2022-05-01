@@ -36,7 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@emailjs/browser": "^3.5.0",
+		"@emailjs/browser": "^3.6.2",
 		"@felte/validator-yup": "^1.0.3",
 		"felte": "^1.1.5",
 		"firebase": "^9.6.10",
