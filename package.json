@@ -38,7 +38,7 @@
 	"dependencies": {
 		"@emailjs/browser": "^3.5.0",
 		"@felte/validator-yup": "^1.0.3",
-		"felte": "^1.1.5",
+		"felte": "^1.1.6",
 		"firebase": "^9.6.10",
 		"yup": "^0.32.11"
 	}
